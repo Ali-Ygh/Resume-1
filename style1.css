@@ -1,0 +1,42 @@
+body {
+    background-image: linear-gradient(to bottom right,white,rgb(28, 147, 177));
+    border-style: groove;
+    border-color: cadetblue;
+    }
+
+.me {text-align: center;
+     margin: 3vh;
+     font-size: 20px;
+     color: rgb(8, 77, 77);
+     width: 500px;
+     display: inline-block;
+    }
+
+.skill {text-align: center;
+       margin: 3vh;
+       border-style: groove;
+       border-color: cadetblue;
+       font-size: 20px;
+       color: rgb(8, 77, 77);
+       width: 66%;
+       float: left;
+       display: grid;
+       }
+
+.about {text-align: center;
+     margin: 3vh;
+     margin-right: 50%;
+     border-style: groove;
+     border-color: cadetblue;
+     font-size: 20px;
+     color: rgb(8, 77, 77);
+     width: 30%;
+     display: inline-block;
+        }
+.input {
+    background-color: unset;
+    border-style: groove;
+    color: rgb(6, 58, 58);
+}
+::placeholder{color: rgb(8, 77, 77); font-size: 15px;}
+
